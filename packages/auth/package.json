@@ -1,0 +1,25 @@
+{
+  "name": "@ai-flow/auth",
+  "version": "1.0.0",
+  "description": "AI Flow 认证库",
+  "main": "dist/index.js",
+  "module": "dist/index.mjs",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "dev": "tsup --watch",
+    "build": "tsup",
+    "test": "vitest run"
+  },
+  "dependencies": {
+    "@ai-flow/common": "workspace:*",
+    "jsonwebtoken": "^9.0.2",
+    "bcryptjs": "^2.4.3"
+  },
+  "devDependencies": {
+    "@types/jsonwebtoken": "^9.0.5",
+    "@types/bcryptjs": "^2.4.6",
+    "tsup": "^8.0.1",
+    "vitest": "^0.34.6",
+    "typescript": "^5.3.3"
+  }
+}
